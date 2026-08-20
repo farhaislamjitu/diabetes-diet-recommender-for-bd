@@ -1,0 +1,4211 @@
+@prefix food: <http://example.org/food-ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+food:DietCluster a rdfs:Class .
+
+food:Food a rdfs:Class .
+
+food:GICategory a rdfs:Class .
+
+food:MealType a rdfs:Class .
+
+food:Role a rdfs:Class .
+
+food:food_01_0001_Barley_whole-grain_raw a food:Food ;
+    rdfs:label "Barley, whole-grain, raw" ;
+    food:hasBengaliName "Jaab, gota" ;
+    food:hasCarbohydrate "56.3746554752"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "324.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0002_Bread_bunroll a food:Food ;
+    rdfs:label "Bread, bun/roll" ;
+    food:hasBengaliName "Bonruti, bun/roll" ;
+    food:hasCarbohydrate "50.900000000000006"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "270.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Breakfast ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0003_Bread_white_for_toasting a food:Food ;
+    rdfs:label "Bread, white, for toasting" ;
+    food:hasBengaliName "Pawruti" ;
+    food:hasCarbohydrate "55.5744"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "272.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Breakfast ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0004_Maizecorn_flour_whole_white a food:Food ;
+    rdfs:label "Maize/corn flour, whole, white" ;
+    food:hasBengaliName "Bhutta, atta" ;
+    food:hasCarbohydrate "69.55"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "355.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0005_Maizecorn_yellow_dried_raw a food:Food ;
+    rdfs:label "Maize/corn, yellow, dried, raw" ;
+    food:hasBengaliName "Bhutta, shukna" ;
+    food:hasCarbohydrate "64.69124603174603"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "344.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0006_Millet_Foxtail_raw a food:Food ;
+    rdfs:label "Millet, Foxtail, raw" ;
+    food:hasBengaliName "Kaon" ;
+    food:hasCarbohydrate "61.68000000000001"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "344.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0007_Millet_Proso_whole-grain_raw a food:Food ;
+    rdfs:label "Millet, Proso, whole-grain, raw" ;
+    food:hasBengaliName "Cheena, gota-dana" ;
+    food:hasCarbohydrate "60.328416"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "341.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0008_Pear_millet_whole-grain_raw a food:Food ;
+    rdfs:label "Pear millet, whole-grain, raw" ;
+    food:hasBengaliName "Bajra, gota-dana" ;
+    food:hasCarbohydrate "61.406656256000005"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "349.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0009_Popcorn_maize_salt_added a food:Food ;
+    rdfs:label "Popcorn, maize (salt added)" ;
+    food:hasBengaliName "Popcorn, Bhutta" ;
+    food:hasCarbohydrate "58.63753454695904"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "328.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Snack ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0010_Rice_flakes a food:Food ;
+    rdfs:label "Rice flakes" ;
+    food:hasBengaliName "Chira" ;
+    food:hasCarbohydrate "79.1790112"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "356.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Breakfast ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0011_Rice_flakes_white_grain_water-soaked a food:Food ;
+    rdfs:label "Rice flakes, white grain, water-soaked" ;
+    food:hasBengaliName "Chira, veja" ;
+    food:hasCarbohydrate "23.0"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "105.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Breakfast ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0012_Rice_BR-28_parboiled_milled_raw a food:Food ;
+    rdfs:label "Rice, BR-28, parboiled, milled, raw" ;
+    food:hasBengaliName "Chal, BR-28, majhari dana, siddha, kolechata" ;
+    food:hasCarbohydrate "76.753"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "344.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0013_Rice_BR-11_parboiled_milled_raw a food:Food ;
+    rdfs:label "Rice, BR-11, parboiled, milled, raw" ;
+    food:hasBengaliName "Chal, BR-11, siddha, kole chata" ;
+    food:hasCarbohydrate "76.1"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "345.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0014_Rice_BR-16_parboiled_milled_raw a food:Food ;
+    rdfs:label "Rice, BR-16, parboiled, milled, raw" ;
+    food:hasBengaliName "Chal, BR-16, siddha, kole chata" ;
+    food:hasCarbohydrate "77.862"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "346.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0015_Rice_BR-26_parboiled_milled_raw a food:Food ;
+    rdfs:label "Rice, BR-26, parboiled, milled, raw" ;
+    food:hasBengaliName "Chal, BR-26, siddha, kole chata" ;
+    food:hasCarbohydrate "75.5"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "346.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0016_Rice_BR-3_parboiled_milled_raw a food:Food ;
+    rdfs:label "Rice, BR-3, parboiled, milled, raw" ;
+    food:hasBengaliName "Chal, BR-3, siddha, kole chata" ;
+    food:hasCarbohydrate "76.8"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "344.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0017_Rice_BRRI_Dhan-30_parboiled_milled_raw a food:Food ;
+    rdfs:label "Rice, BRRI Dhan-30, parboiled, milled, raw" ;
+    food:hasBengaliName "Chal, BRRI Dhan-30, siddha, kole chata" ;
+    food:hasCarbohydrate "77.8604"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "349.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0018_Rice_BRRI_Dhan-40_parboiled_milled_raw a food:Food ;
+    rdfs:label "Rice, BRRI Dhan-40, parboiled, milled, raw" ;
+    food:hasBengaliName "Chal, BRRI Dhan-40, siddha, kole chata" ;
+    food:hasCarbohydrate "77.9"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "349.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0019_Rice_bran_raw a food:Food ;
+    rdfs:label "Rice, bran, raw" ;
+    food:hasBengaliName "Chaler kura" ;
+    food:hasCarbohydrate "28.645"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "398.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0020_Rice_brown_parboiled_home-pounded_raw a food:Food ;
+    rdfs:label "Rice, brown, parboiled, home-pounded, raw " ;
+    food:hasBengaliName "Chal, siddha, dhekichata" ;
+    food:hasCarbohydrate "72.394"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "348.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0021_Rice_brown_parboiled_milled_raw a food:Food ;
+    rdfs:label "Rice, brown, parboiled, milled, raw " ;
+    food:hasBengaliName "Chal, lal, siddha, kolechata" ;
+    food:hasCarbohydrate "72.2710441049147"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "350.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0022_Rice_popped a food:Food ;
+    rdfs:label "Rice, popped" ;
+    food:hasBengaliName "Khoi" ;
+    food:hasCarbohydrate "87.0"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "380.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0023_Rice_puffed_salted a food:Food ;
+    rdfs:label "Rice, puffed, salted" ;
+    food:hasBengaliName "Muri" ;
+    food:hasCarbohydrate "82.73779119575397"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "361.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Snack ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0024_Rice_white_sunned_aromatic_raw a food:Food ;
+    rdfs:label "Rice, white, sunned, aromatic, raw " ;
+    food:hasBengaliName "Chal, atop, sugondhi, chikon dana, dhekichata" ;
+    food:hasCarbohydrate "76.14503333333333"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "343.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0025_Rice_white_sunned_polished_milled_raw a food:Food ;
+    rdfs:label "Rice, white, sunned, polished, milled, raw" ;
+    food:hasBengaliName "Chal, atop, HYV, kolechata, raw" ;
+    food:hasCarbohydrate "77.40204111111112"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "345.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0026_Semolina_wheat_raw a food:Food ;
+    rdfs:label "Semolina, wheat, raw " ;
+    food:hasBengaliName "Sooji, gom" ;
+    food:hasCarbohydrate "70.59833333333333"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "346.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Breakfast ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0027_Sorghum_raw a food:Food ;
+    rdfs:label "Sorghum, raw" ;
+    food:hasBengaliName "Jowar" ;
+    food:hasCarbohydrate "66.89750000000001"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "350.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0028_Sweet_corn_yellow_on_the_cob_raw a food:Food ;
+    rdfs:label "Sweet corn, yellow, on the cob, raw" ;
+    food:hasBengaliName "Bhutta, kancha" ;
+    food:hasCarbohydrate "28.683333333333337"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "147.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0029_Vermicelli_wheat_raw a food:Food ;
+    rdfs:label "Vermicelli, wheat, raw" ;
+    food:hasBengaliName "Semai" ;
+    food:hasCarbohydrate "74.87432"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "347.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Breakfast ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0030_Wheat_flour_brown_whole_grain_raw a food:Food ;
+    rdfs:label "Wheat flour, brown, whole grain, raw" ;
+    food:hasBengaliName "Ata, lal" ;
+    food:hasCarbohydrate "62.17962"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "334.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0031_Wheat_flour_white a food:Food ;
+    rdfs:label "Wheat, flour, white" ;
+    food:hasBengaliName "Ata, sada, packet" ;
+    food:hasCarbohydrate "70.3365"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "347.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0032_Wheat_flour_white_refined a food:Food ;
+    rdfs:label "Wheat flour, white, refined" ;
+    food:hasBengaliName "Maida" ;
+    food:hasCarbohydrate "73.12958666666667"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "346.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0033_Wheat_whole_raw a food:Food ;
+    rdfs:label "Wheat, whole, raw" ;
+    food:hasBengaliName "Gom" ;
+    food:hasCarbohydrate "62.03915968627451"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "344.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0034_Biscuit_sweet a food:Food ;
+    rdfs:label "Biscuit, sweet*" ;
+    food:hasBengaliName "Misti biscuit" ;
+    food:hasCarbohydrate "56.70172727272728"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "344.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Dessert ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0035_Plain_Khichuri a food:Food ;
+    rdfs:label "Plain Khichuri*" ;
+    food:hasBengaliName "Khichuri" ;
+    food:hasCarbohydrate "17.71363679759956"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "163.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0036_Plain_pulao a food:Food ;
+    rdfs:label "Plain pulao*" ;
+    food:hasBengaliName "Plain pulao" ;
+    food:hasCarbohydrate "24.07194034337648"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "128.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0037_Rice_BR-28_boiled_without_salt a food:Food ;
+    rdfs:label "Rice, BR-28, boiled* (without salt)" ;
+    food:hasBengaliName "Bhat, BR-28, bosa bhat" ;
+    food:hasCarbohydrate "24.3"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "109.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0038_Rice_brown_home-pounded_boiled_without_salt a food:Food ;
+    rdfs:label "Rice, brown, home-pounded, boiled* (without salt)" ;
+    food:hasBengaliName "Bhat, siddha, dhekichata" ;
+    food:hasCarbohydrate "23.203205128205127"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "112.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0039_Rice_brown_parboiled_milled_boiled_without_salt a food:Food ;
+    rdfs:label "Rice, brown, parboiled, milled, boiled* (without salt)" ;
+    food:hasBengaliName "Bhat, lal, siddha, kolechata" ;
+    food:hasCarbohydrate "23.16379618747266"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "112.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0040_Rice_white_sunned_aromatic_boiled_without_salt a food:Food ;
+    rdfs:label "Rice, white, sunned, aromatic, boiled* (without salt)" ;
+    food:hasBengaliName "Bhat, Sugondhi, bosa bhat" ;
+    food:hasCarbohydrate "24.4054594017094"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "110.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0041_Rice_white_sunned_polished_milled_boiled_without_salt a food:Food ;
+    rdfs:label "Rice, white, sunned, polished, milled, boiled* (without salt)" ;
+    food:hasBengaliName "Bhat, atop, bosa bhat" ;
+    food:hasCarbohydrate "24.80834650997151"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "111.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0042_Ruti a food:Food ;
+    rdfs:label "Ruti*" ;
+    food:hasBengaliName "Ruti" ;
+    food:hasCarbohydrate "49.7"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "246.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_01_0043_Vermicelli_boiled_without_salt a food:Food ;
+    rdfs:label "Vermicelli, boiled* (without salt)" ;
+    food:hasBengaliName "Semai siddha" ;
+    food:hasCarbohydrate "32.55405217391304"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "151.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Breakfast ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_02_0001_Bengal_gram_dehulled_split_dried_raw a food:Food ;
+    rdfs:label "Bengal gram, dehulled, split, dried, raw" ;
+    food:hasBengaliName "Cholar dal, vanga" ;
+    food:hasCarbohydrate "59.2"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "375.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_02_0002_Bengal_gram_whole_dried_raw a food:Food ;
+    rdfs:label "Bengal gram, whole, dried, raw" ;
+    food:hasBengaliName "Chola, shukna" ;
+    food:hasCarbohydrate "44.78366666666667"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "350.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_02_0003_Black_gram_dehulled_dried_raw a food:Food ;
+    rdfs:label "Black gram, dehulled, dried raw" ;
+    food:hasBengaliName "Mashkalai dal, asto" ;
+    food:hasCarbohydrate "45.08666666666667"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "317.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_02_0004_Black_gram_split_dried_raw a food:Food ;
+    rdfs:label "Black gram, split, dried, raw" ;
+    food:hasBengaliName "Maskalai dal, vanga" ;
+    food:hasCarbohydrate "61.8125"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "350.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_02_0005_Green_gram_split_dried_raw a food:Food ;
+    rdfs:label "Green gram, split, dried, raw" ;
+    food:hasBengaliName "Mung dal,  vanga" ;
+    food:hasCarbohydrate "60.93640476190476"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "351.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_02_0006_Green_gram_whole_dried_raw a food:Food ;
+    rdfs:label "Green gram, whole, dried, raw" ;
+    food:hasBengaliName "Mungkalai" ;
+    food:hasCarbohydrate "44.825"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "318.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_02_0007_Grass_pea_split_dried_raw a food:Food ;
+    rdfs:label "Grass pea, split dried, raw" ;
+    food:hasBengaliName "Khesari dal, vanga" ;
+    food:hasCarbohydrate "56.510333333333335"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "352.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_02_0008_Lentil_dried_raw a food:Food ;
+    rdfs:label "Lentil, dried, raw" ;
+    food:hasBengaliName "Mosur dal" ;
+    food:hasCarbohydrate "43.163"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "317.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_02_0009_Pea_dried_raw a food:Food ;
+    rdfs:label "Pea, dried, raw" ;
+    food:hasBengaliName "Motor " ;
+    food:hasCarbohydrate "48.29666666666667"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "327.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_02_0010_Red_gram_split_dried_raw a food:Food ;
+    rdfs:label "Red gram, split, dried, raw" ;
+    food:hasBengaliName "Arhar dal" ;
+    food:hasCarbohydrate "60.3675"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "347.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_02_0011_Soybean_dried_raw a food:Food ;
+    rdfs:label "Soybean, dried, raw" ;
+    food:hasBengaliName "Gari kalai/Soyabean" ;
+    food:hasCarbohydrate "23.62001551515152"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "424.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_02_0012_Bengal_gram_whole_boiled_without_salt a food:Food ;
+    rdfs:label "Bengal gram, whole, boiled* (without salt)" ;
+    food:hasBengaliName "Chola siddha, lobon chara" ;
+    food:hasCarbohydrate "23.32482638888889"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "182.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_02_0013_Green_gram_split_boiled_without_salt a food:Food ;
+    rdfs:label "Green gram, split, boiled* (without salt)" ;
+    food:hasBengaliName "Mung dal siddha, lobon chara" ;
+    food:hasCarbohydrate "28.05543497325265"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "161.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_02_0014_Grass_pea_split_boiled_without_salt a food:Food ;
+    rdfs:label "Grass pea, split, boiled* (without salt)" ;
+    food:hasBengaliName "Khesari dal siddha, lobon chara" ;
+    food:hasCarbohydrate "22.7864247311828"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "142.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_02_0015_Lentis_boiled_without_salt a food:Food ;
+    rdfs:label "Lentis, boiled* (without salt)" ;
+    food:hasBengaliName "Mosur dal siddha, lobon chara" ;
+    food:hasCarbohydrate "21.15833333333333"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "155.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_02_0016_Pea_boiled_without_salt a food:Food ;
+    rdfs:label "Pea, boiled* (without salt)" ;
+    food:hasBengaliName "Motor siddha, lobon chara" ;
+    food:hasCarbohydrate "25.15451388888889"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "170.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_03_0001_Amaranth_stem_raw a food:Food ;
+    rdfs:label "Amaranth, stem, raw" ;
+    food:hasBengaliName "Data" ;
+    food:hasCarbohydrate "3.655000000000001"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "21.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0002_Bean_scarlet_runner_raw a food:Food ;
+    rdfs:label "Bean, scarlet runner, raw" ;
+    food:hasBengaliName "Shim" ;
+    food:hasCarbohydrate "8.325000000000003"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "54.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0003_Bean_seeds_and_pods_raw a food:Food ;
+    rdfs:label "Bean, seeds and pods, raw" ;
+    food:hasBengaliName "Shim" ;
+    food:hasCarbohydrate "2.492999999999995"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "29.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0004_Beet_root_red_raw a food:Food ;
+    rdfs:label "Beet root, red, raw" ;
+    food:hasBengaliName "Beet" ;
+    food:hasCarbohydrate "7.920000000000002"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "46.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0005_Brinjal_purple_long_raw a food:Food ;
+    rdfs:label "Brinjal, purple, long, raw" ;
+    food:hasBengaliName "Begun, kalo, lomba" ;
+    food:hasCarbohydrate "1.9664999999999824"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "24.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0006_Broad_beans_raw a food:Food ;
+    rdfs:label "Broad beans, raw" ;
+    food:hasBengaliName "Makhon shim" ;
+    food:hasCarbohydrate "4.5"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "50.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0007_Cabbage_raw a food:Food ;
+    rdfs:label "Cabbage, raw" ;
+    food:hasBengaliName "Badhakopi" ;
+    food:hasCarbohydrate "2.5562499999999915"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "24.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0008_Carrot_raw a food:Food ;
+    rdfs:label "Carrot, raw" ;
+    food:hasBengaliName "Gajor" ;
+    food:hasCarbohydrate "5.960000000000008"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "34.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0009_Cauliflower_raw a food:Food ;
+    rdfs:label "Cauliflower, raw" ;
+    food:hasBengaliName "Fulkopi" ;
+    food:hasCarbohydrate "2.546250000000001"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "27.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0010_Chilli_green_with_seeds_raw a food:Food ;
+    rdfs:label "Chilli, green, with seeds, raw" ;
+    food:hasBengaliName "Kancha morich" ;
+    food:hasCarbohydrate "5.9"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "45.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0011_Cowpea_pods_and_seeds_raw a food:Food ;
+    rdfs:label "Cowpea, pods and seeds, raw" ;
+    food:hasBengaliName "Borboti" ;
+    food:hasCarbohydrate "2.8400000000000034"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "39.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0012_Cucumber_peeled_raw a food:Food ;
+    rdfs:label "Cucumber, peeled, raw" ;
+    food:hasBengaliName "Shosa" ;
+    food:hasCarbohydrate "2.876666666666665"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "17.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0013_Drumstick_pods_raw a food:Food ;
+    rdfs:label "Drumstick, pods, raw" ;
+    food:hasBengaliName "Sajna data" ;
+    food:hasCarbohydrate "5.099999999999994"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "43.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0014_Garlic_raw a food:Food ;
+    rdfs:label "Garlic, raw" ;
+    food:hasBengaliName "Rosun" ;
+    food:hasCarbohydrate "27.620000000000005"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "147.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0015_Gourd_ash_raw a food:Food ;
+    rdfs:label "Gourd, ash, raw" ;
+    food:hasBengaliName "Chalkumra" ;
+    food:hasCarbohydrate "1.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "10.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0016_Gourd_bitter_raw a food:Food ;
+    rdfs:label "Gourd, bitter, raw" ;
+    food:hasBengaliName "Korola" ;
+    food:hasCarbohydrate "3.5878333333333217"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "31.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0017_Gourd_bottle_raw a food:Food ;
+    rdfs:label "Gourd, bottle, raw" ;
+    food:hasBengaliName "Lau" ;
+    food:hasCarbohydrate "6.758333333333368"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "34.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0018_Gourd_pointed_raw a food:Food ;
+    rdfs:label "Gourd, pointed, raw" ;
+    food:hasBengaliName "Potol" ;
+    food:hasCarbohydrate "2.2316666666666407"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "24.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0019_Gourd_ridge_raw a food:Food ;
+    rdfs:label "Gourd, ridge, raw" ;
+    food:hasBengaliName "Jhinga" ;
+    food:hasCarbohydrate "4.575000000000017"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "29.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0020_Gourd_snake_raw a food:Food ;
+    rdfs:label "Gourd, snake, raw" ;
+    food:hasBengaliName "Chichinga" ;
+    food:hasCarbohydrate "4.510000000000005"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "24.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0021_Gourd_sponge_raw a food:Food ;
+    rdfs:label "Gourd, sponge, raw" ;
+    food:hasBengaliName "Dhundul" ;
+    food:hasCarbohydrate "4.280000000000001"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "24.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0022_Gourd_teasle_raw a food:Food ;
+    rdfs:label "Gourd, teasle, raw" ;
+    food:hasBengaliName "Kakrol" ;
+    food:hasCarbohydrate "11.769166666666663"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "61.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0023_Okraladies_finger_raw a food:Food ;
+    rdfs:label "Okra/ladies finger, raw" ;
+    food:hasBengaliName "Dheros" ;
+    food:hasCarbohydrate "5.734365079365091"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "39.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0024_Onion_raw a food:Food ;
+    rdfs:label "Onion, raw" ;
+    food:hasBengaliName "Piaj" ;
+    food:hasCarbohydrate "12.215999999999994"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "59.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0025_Papaya_unripe_raw a food:Food ;
+    rdfs:label "Papaya, unripe, raw" ;
+    food:hasBengaliName "Kancha pepe" ;
+    food:hasCarbohydrate "5.714999999999989"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "30.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0026_Peas_raw a food:Food ;
+    rdfs:label "Peas, raw" ;
+    food:hasBengaliName "Motorshuti" ;
+    food:hasCarbohydrate "12.500000000000014"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "91.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0027_Plantain_raw a food:Food ;
+    rdfs:label "Plantain, raw " ;
+    food:hasBengaliName "Kancha kola" ;
+    food:hasCarbohydrate "15.539166666666674"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "77.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0028_Pumpkin_raw a food:Food ;
+    rdfs:label "Pumpkin, raw" ;
+    food:hasBengaliName "Mistikumra" ;
+    food:hasCarbohydrate "1.3249999999999886"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "18.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0029_Radish_raw a food:Food ;
+    rdfs:label "Radish, raw" ;
+    food:hasBengaliName "Mula" ;
+    food:hasCarbohydrate "2.478897435897452"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "18.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0030_Tomato_green_raw a food:Food ;
+    rdfs:label "Tomato, green, raw" ;
+    food:hasBengaliName "Kancha tomato " ;
+    food:hasCarbohydrate "2.522999999999982"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "23.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0031_Tomato_red_ripe_raw a food:Food ;
+    rdfs:label "Tomato, red, ripe, raw" ;
+    food:hasBengaliName "Paka tomato " ;
+    food:hasCarbohydrate "1.4499999999999886"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "16.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0032_Turnip_raw a food:Food ;
+    rdfs:label "Turnip, raw" ;
+    food:hasBengaliName "Shalgom" ;
+    food:hasCarbohydrate "4.069999999999993"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "26.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0033_Brinjal_purple_long_boiled_without_salt a food:Food ;
+    rdfs:label "Brinjal, purple, long, boiled* (without salt)" ;
+    food:hasBengaliName "Begun siddha, lobon chara" ;
+    food:hasCarbohydrate "2.1374999999999806"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "26.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0034_Cabbage_boiled_without_salt a food:Food ;
+    rdfs:label "Cabbage, boiled* (without salt)" ;
+    food:hasBengaliName "Badhakopi siddha, lobon chara" ;
+    food:hasCarbohydrate "2.904829545454536"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "27.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0035_Carrot_boiled_without_salt a food:Food ;
+    rdfs:label "Carrot, boiled* (without salt)" ;
+    food:hasBengaliName "Gajor siddha, lobon chara" ;
+    food:hasCarbohydrate "7.339901477832522"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "43.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0036_Cauliflower_boiled_without_salt a food:Food ;
+    rdfs:label "Cauliflower, boiled* (without salt)" ;
+    food:hasBengaliName "Fulkopi siddha, lobon chara" ;
+    food:hasCarbohydrate "2.674632352941177"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "28.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0037_Cowpea_boiled_without_salt a food:Food ;
+    rdfs:label "Cowpea, boiled* (without salt)" ;
+    food:hasBengaliName "Borboti siddha, lobon chara" ;
+    food:hasCarbohydrate "2.9583333333333366"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "40.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0038_Gourd_pointed_boiled_without_salt a food:Food ;
+    rdfs:label "Gourd, pointed, boiled* (without salt)" ;
+    food:hasBengaliName "Potol siddha, lobon chara" ;
+    food:hasCarbohydrate "2.535984848484819"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "28.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0039_Gourd_teasle_boiled_without_salt a food:Food ;
+    rdfs:label "Gourd, teasle, boiled* (without salt)" ;
+    food:hasBengaliName "Kakrol siddha, lobon chara" ;
+    food:hasCarbohydrate "13.374053030303026"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "69.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0040_Okraladies_finger_boiled_without_salt a food:Food ;
+    rdfs:label "Okra/ladies finger, boiled* (without salt)" ;
+    food:hasBengaliName "Dheros siddha, lobon chara" ;
+    food:hasCarbohydrate "4.669678403391768"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "32.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0041_Papaya_unripe_boiled_without_salt a food:Food ;
+    rdfs:label "Papaya, unripe, boiled* (without salt)" ;
+    food:hasBengaliName "Kacha pepe siddha, lobon chara" ;
+    food:hasCarbohydrate "6.131974248927027"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "32.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0042_Plantain_boiled_without_salt a food:Food ;
+    rdfs:label "Plantain, boiled* (without salt)" ;
+    food:hasBengaliName "Kancha kola siddha, lobon chara" ;
+    food:hasCarbohydrate "15.234477124183012"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "76.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0043_Pumpkin_boiled_without_salt a food:Food ;
+    rdfs:label "Pumpkin, boiled* (without salt)" ;
+    food:hasBengaliName "Mistikumra siddha, lobon chara" ;
+    food:hasCarbohydrate "2.0703124999999822"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "29.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0044_Radish_boiled_without_salt a food:Food ;
+    rdfs:label "Radish, boiled* (without salt)" ;
+    food:hasBengaliName "Mula siddha, lobon chara" ;
+    food:hasCarbohydrate "3.3140340052104964"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "24.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0045_Tomato_red_ripe_boiled_without_salt a food:Food ;
+    rdfs:label "Tomato, red, ripe, boiled* (without salt)" ;
+    food:hasBengaliName "Paka tomato siddha, lobon chara" ;
+    food:hasCarbohydrate "2.7255639097744147"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "30.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0046_Ladys_finger-tomato_bhuna a food:Food ;
+    rdfs:label "Lady's finger-tomato bhuna*" ;
+    food:hasBengaliName "Dheros-tomato bhuna" ;
+    food:hasCarbohydrate "8.991881568463674"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "127.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0047_Gourd_bitter_boiled_without_salt a food:Food ;
+    rdfs:label "Gourd, bitter, boiled* (without salt)" ;
+    food:hasBengaliName "Korola siddha, lobon chara" ;
+    food:hasCarbohydrate "4.07708333333332"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "35.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_03_0048_Gourd_bitter_fry a food:Food ;
+    rdfs:label "Gourd, bitter, fry*" ;
+    food:hasBengaliName "Korola vaji" ;
+    food:hasCarbohydrate "7.1"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "130.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0001_Agathi_raw a food:Food ;
+    rdfs:label "Agathi, raw" ;
+    food:hasBengaliName "Bok ful shak" ;
+    food:hasCarbohydrate "5.700000000000003"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "88.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0002_Alligator_weed_raw a food:Food ;
+    rdfs:label "Alligator weed, raw" ;
+    food:hasBengaliName "Malancha shak" ;
+    food:hasCarbohydrate "6.617949999999979"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "57.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0003_Amaranth_leaves_spiney_raw a food:Food ;
+    rdfs:label "Amaranth, leaves, spiney, raw" ;
+    food:hasBengaliName "Kanta notay shak" ;
+    food:hasCarbohydrate "5.21008333333333"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "51.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0004_Amaranth_leaves_red_raw a food:Food ;
+    rdfs:label "Amaranth, leaves, red, raw" ;
+    food:hasBengaliName "Lal shak" ;
+    food:hasCarbohydrate "0.4728571428571513"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "32.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0005_Amaranth_leaves_green_raw a food:Food ;
+    rdfs:label "Amaranth, leaves, green, raw" ;
+    food:hasBengaliName "Sobuj data shak" ;
+    food:hasCarbohydrate "1.4790555555555471"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "25.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0006_Dock_leaves_raw a food:Food ;
+    rdfs:label "Dock leaves, raw" ;
+    food:hasBengaliName "Chukai shak, bivinno projati" ;
+    food:hasCarbohydrate "5.933333333333337"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "46.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0007_Beet_greens_leaves a food:Food ;
+    rdfs:label "Beet greens leaves" ;
+    food:hasBengaliName "Beet shak" ;
+    food:hasCarbohydrate "2.059999999999988"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "31.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0008_Bengal_dayflower_leaves_raw a food:Food ;
+    rdfs:label "Bengal dayflower, leaves, raw" ;
+    food:hasBengaliName "Bat baitta shak" ;
+    food:hasCarbohydrate "2.225133333333318"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "22.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0009_Bitter_gourd_leaves_green_raw a food:Food ;
+    rdfs:label "Bitter gourd leaves, green, raw" ;
+    food:hasBengaliName "Korola shak" ;
+    food:hasCarbohydrate "6.076499999999996"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "55.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0010_Bottle_gourd_leaves_raw a food:Food ;
+    rdfs:label "Bottle gourd leaves, raw" ;
+    food:hasBengaliName "Lau shak" ;
+    food:hasCarbohydrate "0.5678571428571502"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "26.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0011_Bugleweed_raw a food:Food ;
+    rdfs:label "Bugleweed, raw  " ;
+    food:hasBengaliName "Sabarang" ;
+    food:hasCarbohydrate "4.560000000000002"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "43.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0012_Cassava_leaves_raw a food:Food ;
+    rdfs:label "Cassava, leaves, raw" ;
+    food:hasBengaliName "Simei alu shak" ;
+    food:hasCarbohydrate "5.670866666666669"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "62.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0013_Colocasia_leaves_black_raw a food:Food ;
+    rdfs:label "Colocasia leaves, black, raw" ;
+    food:hasBengaliName "Kalo kochu shak" ;
+    food:hasCarbohydrate "5.325000000000003"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "62.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0014_Colocasia_leaves_green_raw a food:Food ;
+    rdfs:label "Colocasia leaves, green, raw" ;
+    food:hasBengaliName "Shobuj kochu shak" ;
+    food:hasCarbohydrate "4.371190476190478"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "51.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0015_Cowpea_leaves_raw a food:Food ;
+    rdfs:label "Cowpea, leaves, raw" ;
+    food:hasBengaliName "Borboti pata" ;
+    food:hasCarbohydrate "1.7000000000000028"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "34.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0016_Dima_leaves_raw a food:Food ;
+    rdfs:label "Dima leaves, raw" ;
+    food:hasBengaliName "Dima shak" ;
+    food:hasCarbohydrate "3.5779999999999887"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "33.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0017_Drumstick_leaves_raw a food:Food ;
+    rdfs:label "Drumstick, leaves, raw" ;
+    food:hasBengaliName "Sajna pata" ;
+    food:hasCarbohydrate "4.575841666666662"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "72.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0018_Farn_leaves_raw a food:Food ;
+    rdfs:label "Farn, leaves, raw" ;
+    food:hasBengaliName "Dheki shak" ;
+    food:hasCarbohydrate "13.731333333333325"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "68.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0019_Fenugreek_leaves_raw a food:Food ;
+    rdfs:label "Fenugreek, leaves, raw" ;
+    food:hasBengaliName "Methi shak" ;
+    food:hasCarbohydrate "5.0"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "50.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0020_Indian_spinach_raw a food:Food ;
+    rdfs:label "Indian spinach, raw" ;
+    food:hasBengaliName "Pui shak" ;
+    food:hasCarbohydrate "2.105714285714285"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "25.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0021_Jute_leaves_raw a food:Food ;
+    rdfs:label "Jute leaves, raw" ;
+    food:hasBengaliName "Pat shak" ;
+    food:hasCarbohydrate "1.7399999999999949"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "32.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0022_Pumpkin_leaves_raw a food:Food ;
+    rdfs:label "Pumpkin leaves, raw" ;
+    food:hasBengaliName "Misti kumra shak" ;
+    food:hasCarbohydrate "2.790500000000023"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "29.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0023_Radish_leaves_raw a food:Food ;
+    rdfs:label "Radish leaves, raw" ;
+    food:hasBengaliName "Mula shak" ;
+    food:hasCarbohydrate "3.3684523809523768"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "32.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0024_Slender_amaranth_leaves_raw a food:Food ;
+    rdfs:label "Slender amaranth leaves, raw" ;
+    food:hasBengaliName "Notay shak" ;
+    food:hasCarbohydrate "4.316666666666677"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "47.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0025_Spinach_raw a food:Food ;
+    rdfs:label "Spinach, raw " ;
+    food:hasBengaliName "Palong shak" ;
+    food:hasCarbohydrate "0.8801587301586977"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "26.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0026_Sweet_potato_leaves_raw a food:Food ;
+    rdfs:label "Sweet potato leaves, raw" ;
+    food:hasBengaliName "Misti alu shak" ;
+    food:hasCarbohydrate "1.7699625000000054"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "45.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0027_Sweet_potato_leaves_SP4_dark_green_mature_raw a food:Food ;
+    rdfs:label "Sweet potato leaves, SP4,  dark green, mature, raw" ;
+    food:hasBengaliName "Misti alu shak (SP4)" ;
+    food:hasCarbohydrate "2.766500000000008"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "45.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0028_Sweet_potato_leaves_SP7_dark_green_mature_raw a food:Food ;
+    rdfs:label "Sweet potato leaves, SP7,  dark green, mature, raw" ;
+    food:hasBengaliName "Misti alu shak (SP7)" ;
+    food:hasCarbohydrate "1.2199999999999989"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "45.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0029_Sweet_potato_leaves_SP8_light_green_mature_raw a food:Food ;
+    rdfs:label "Sweet potato leaves, SP8, light green, mature, raw" ;
+    food:hasBengaliName "Misti alu shak (SP8)" ;
+    food:hasCarbohydrate "3.8732000000000113"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "50.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0030_Water_spinach_raw a food:Food ;
+    rdfs:label "Water spinach, raw" ;
+    food:hasBengaliName "Kolmee shak" ;
+    food:hasCarbohydrate "6.022666666666666"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "43.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0031_Watercress_raw a food:Food ;
+    rdfs:label "Watercress, raw" ;
+    food:hasBengaliName "Helencha shak" ;
+    food:hasCarbohydrate "8.793999999999997"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "49.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0032_Amaranth_leaves_red_boiled_without_salt a food:Food ;
+    rdfs:label "Amaranth, leaves, red, boiled* (without salt)" ;
+    food:hasBengaliName "Lal shak siddha, lobon chara" ;
+    food:hasCarbohydrate "0.5576145552560746"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "37.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0033_Amaranth_leaves_green_boiled_without_salt a food:Food ;
+    rdfs:label "Amaranth, leaves, green, boiled* (without salt)" ;
+    food:hasBengaliName "Sobuj data shak siddha, lobon chara" ;
+    food:hasCarbohydrate "1.74416928721173"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "30.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0034_Slender_amaranth_leaves_boiled_without_salt a food:Food ;
+    rdfs:label "Slender amaranth leaves, boiled* (without salt)" ;
+    food:hasBengaliName "Notay shak siddha, lobon chara" ;
+    food:hasCarbohydrate "5.090408805031458"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "55.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0035_Spinach_boiled_without_salt a food:Food ;
+    rdfs:label "Spinach, boiled* (without salt)" ;
+    food:hasBengaliName "Palong shak siddha, lobon chara" ;
+    food:hasCarbohydrate "1.60612906963266"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "47.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_04_0036_Indian_spinach_boiled_without_salt a food:Food ;
+    rdfs:label "Indian spinach, boiled* (without salt)" ;
+    food:hasBengaliName "Pui shak siddha, lobon chara" ;
+    food:hasCarbohydrate "2.770676691729322"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "33.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_05_0001_ColocasiaTaro_corm_raw a food:Food ;
+    rdfs:label "Colocasia/Taro, corm, raw" ;
+    food:hasBengaliName "Kochur Mukhi" ;
+    food:hasCarbohydrate "21.02116666666668"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "103.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_05_0002_ColocasiaTaroTannia_cormel_raw a food:Food ;
+    rdfs:label "Colocasia/Taro/Tannia, cormel, raw" ;
+    food:hasBengaliName "Dudh kochu" ;
+    food:hasCarbohydrate "20.645"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "101.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_05_0003_Elephant_foot_corm_raw a food:Food ;
+    rdfs:label "Elephant foot, corm, raw " ;
+    food:hasBengaliName "Ole Kochu" ;
+    food:hasCarbohydrate "15.079999999999998"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "74.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_05_0004_Giant_taro_corm_raw a food:Food ;
+    rdfs:label "Giant taro, corm, raw " ;
+    food:hasBengaliName "Mankochu " ;
+    food:hasCarbohydrate "16.560000000000002"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "82.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_05_0005_Potato_Diamond_raw a food:Food ;
+    rdfs:label "Potato, Diamond, raw" ;
+    food:hasBengaliName "Gol alu, Diamond jat, khosa chara" ;
+    food:hasCarbohydrate "14.006"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "66.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_05_0006_Sweet_potato_Komola_Sundori_orange_flesh_raw a food:Food ;
+    rdfs:label "Sweet potato, Komola Sundori, orange flesh, raw" ;
+    food:hasBengaliName "Misti alu, Komola Sundori" ;
+    food:hasCarbohydrate "21.11"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "97.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_05_0007_Sweet_potato_pale-yellow_flesh_raw a food:Food ;
+    rdfs:label "Sweet potato, pale-yellow flesh, raw " ;
+    food:hasBengaliName "Misti alu, holdey" ;
+    food:hasCarbohydrate "23.11892857142857"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "105.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_05_0008_Sweet_potato_skin_purple_flesh_pale-yellow_raw_without_skin a food:Food ;
+    rdfs:label "Sweet potato, skin purple, flesh pale-yellow, raw (without skin)" ;
+    food:hasBengaliName "Misti alu, Lal khosa" ;
+    food:hasCarbohydrate "23.35499999999999"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "104.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_05_0009_Sweet_potato_white_flesh_raw a food:Food ;
+    rdfs:label "Sweet potato, white flesh, raw " ;
+    food:hasBengaliName "Misti Alu, sada" ;
+    food:hasCarbohydrate "21.79583333333332"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "98.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_05_0010_Yam_tuber_raw a food:Food ;
+    rdfs:label "Yam, tuber, raw" ;
+    food:hasBengaliName "Bon Alu, bivinno projati" ;
+    food:hasCarbohydrate "20.31"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "97.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_05_0011_ColocasiaTaro_boiled_without_salt a food:Food ;
+    rdfs:label "Colocasia/Taro, boiled* (without salt)" ;
+    food:hasBengaliName "Kochur Mukhi siddha, lobon chara" ;
+    food:hasCarbohydrate "23.56633034379672"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "115.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_05_0012_Potato_Diamond_boiled_without_salt a food:Food ;
+    rdfs:label "Potato, Diamond, boiled* (without salt)" ;
+    food:hasBengaliName "Gol alu siddha, lobon chara" ;
+    food:hasCarbohydrate "14.176113360323884"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "67.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_05_0013_Sweet_potato_pale-yellow_flesh_boiled_without_salt a food:Food ;
+    rdfs:label "Sweet potato, pale-yellow flesh, boiled* (without salt)" ;
+    food:hasBengaliName "Misti alu, holdey, siddha, lobon chara" ;
+    food:hasCarbohydrate "23.39972527472528"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "106.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_05_0014_Sweet_potato_white_flesh_boiled_without_salt a food:Food ;
+    rdfs:label "Sweet potato, white flesh, boiled* (without salt)" ;
+    food:hasBengaliName "Misti alu, sada, siddha, lobon chara" ;
+    food:hasCarbohydrate "22.06056005398109"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "99.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_05_0015_Sweet_potato_skin_purple_flesh_pale-yellow_boiled_without_sa a food:Food ;
+    rdfs:label "Sweet potato, skin purple, flesh pale-yellow, boiled* (without salt)" ;
+    food:hasBengaliName "Misti alu, lal khosa, siddha, lobon chara" ;
+    food:hasCarbohydrate "23.638663967611325"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "106.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_05_0016_Sweet_potato_Komola_Sundori_orange_flesh_boiled_without_salt a food:Food ;
+    rdfs:label "Sweet potato, Komola Sundori, orange flesh, boiled* (without salt)" ;
+    food:hasBengaliName "Misti alu, Komola Sundori, siddha, lobon chara" ;
+    food:hasCarbohydrate "21.3663967611336"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "98.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_05_0017_ColocasiaTaroTannia_cormel_boiled_without_salt a food:Food ;
+    rdfs:label "Colocasia/Taro/Tannia, cormel, boiled* (without salt)" ;
+    food:hasBengaliName "Dudh kochu siddha, lobon chara" ;
+    food:hasCarbohydrate "23.14461883408072"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "113.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_05_0018_Elephant_foot_corm_boiled_without_salt a food:Food ;
+    rdfs:label "Elephant foot, corm, boiled* (without salt)" ;
+    food:hasBengaliName "Ole kochu siddha, lobon chara" ;
+    food:hasCarbohydrate "16.905829596412556"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "83.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_05_0019_Giant_taro_corm_boiled_without_salt a food:Food ;
+    rdfs:label "Giant taro, corm, boiled* (without salt)" ;
+    food:hasBengaliName "Mankochu siddha, lobon chara" ;
+    food:hasCarbohydrate "18.565022421524667"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "92.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_05_0020_Yam_tuber_boiled_without_salt a food:Food ;
+    rdfs:label "Yam, tuber, boiled* (without salt)" ;
+    food:hasBengaliName "Bon alu siddha, lobon chara" ;
+    food:hasCarbohydrate "22.76905829596413"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "109.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_05_0021_Potato_Mash a food:Food ;
+    rdfs:label "Potato Mash*" ;
+    food:hasBengaliName "Alu siddha, lobon soho" ;
+    food:hasCarbohydrate "16.6"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "84.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_06_0001_Sunflower_seeds_dried a food:Food ;
+    rdfs:label "Sunflower seeds, dried" ;
+    food:hasBengaliName "Surjomukhi bij" ;
+    food:hasCarbohydrate "26.366529523809533"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "552.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Snack ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_06_0002_Cashew_nuts_raw a food:Food ;
+    rdfs:label "Cashew nuts, raw" ;
+    food:hasBengaliName "Hizlee badam" ;
+    food:hasCarbohydrate "23.52239999999999"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "595.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Snack ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_06_0003_Chilgoza_pine_dried a food:Food ;
+    rdfs:label "Chilgoza pine, dried" ;
+    food:hasBengaliName "Chilgoza" ;
+    food:hasCarbohydrate "8.696666666666673"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "712.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Snack ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_06_0004_Coconut_milk a food:Food ;
+    rdfs:label "Coconut milk" ;
+    food:hasBengaliName "Narikel dudh" ;
+    food:hasCarbohydrate "1.2000000000000028"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "213.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Snack ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_06_0005_Coconut_desiccated a food:Food ;
+    rdfs:label "Coconut, desiccated" ;
+    food:hasBengaliName "Narikel, shukna " ;
+    food:hasCarbohydrate "8.533333333333346"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "652.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Snack ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_06_0006_Coconut_mature_kernel a food:Food ;
+    rdfs:label "Coconut, mature kernel" ;
+    food:hasBengaliName "Narikel" ;
+    food:hasCarbohydrate "6.90726190476191"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "389.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Snack ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_06_0007_Groundnuts_Peanut_raw a food:Food ;
+    rdfs:label "Groundnuts/ Peanut, raw" ;
+    food:hasBengaliName "China badam" ;
+    food:hasCarbohydrate "14.794534933333338"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "585.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Snack ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_06_0008_Jackfruit_seeds_raw a food:Food ;
+    rdfs:label "Jackfruit seeds, raw" ;
+    food:hasBengaliName "Kathal er bichi" ;
+    food:hasCarbohydrate "30.393200000000007"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "151.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Snack ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_06_0009_Linseed_tisi_raw a food:Food ;
+    rdfs:label "Linseed, tisi, raw" ;
+    food:hasBengaliName "Tisi" ;
+    food:hasCarbohydrate "6.145600000000002"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "500.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Snack ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_06_0010_Lotus_seeds_dried a food:Food ;
+    rdfs:label "Lotus seeds, dried" ;
+    food:hasBengaliName "Poddo gota, shukna" ;
+    food:hasCarbohydrate "61.56"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "339.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Snack ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_06_0011_Lotus_seeds_green a food:Food ;
+    rdfs:label "Lotus seeds, green" ;
+    food:hasBengaliName "Poddo gota, kancha" ;
+    food:hasCarbohydrate "12.470000000000011"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "74.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Snack ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_06_0012_Mustard_seeds_dried a food:Food ;
+    rdfs:label "Mustard seeds, dried" ;
+    food:hasBengaliName "Sarisha" ;
+    food:hasCarbohydrate "18.51165417502375"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "501.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Snack ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_06_0013_Pistachio_nuts_dried a food:Food ;
+    rdfs:label "Pistachio nuts, dried" ;
+    food:hasBengaliName "Pesta" ;
+    food:hasCarbohydrate "18.178200000000004"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "574.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Snack ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_06_0014_Pumpkin_seeds_dried a food:Food ;
+    rdfs:label "Pumpkin seeds, dried" ;
+    food:hasBengaliName "Mistikumrar bichi" ;
+    food:hasCarbohydrate "10.621200000000002"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "580.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Snack ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_06_0015_Sesame_seeds_whole_dried a food:Food ;
+    rdfs:label "Sesame seeds, whole, dried" ;
+    food:hasBengaliName "Til" ;
+    food:hasCarbohydrate "14.295521980904413"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "563.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Snack ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_06_0016_Walnuts a food:Food ;
+    rdfs:label "Walnuts" ;
+    food:hasBengaliName "Akhrot" ;
+    food:hasCarbohydrate "7.269999999999996"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "684.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Snack ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_07_0001_Bay_leaf_dried a food:Food ;
+    rdfs:label "Bay leaf, dried" ;
+    food:hasBengaliName "Tejpata" ;
+    food:hasCarbohydrate "48.67"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "353.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_07_0002_Cardamom a food:Food ;
+    rdfs:label "Cardamom" ;
+    food:hasBengaliName "Elach" ;
+    food:hasCarbohydrate "37.77784561709552"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "261.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_07_0003_Chilli_red_dry a food:Food ;
+    rdfs:label "Chilli, red, dry" ;
+    food:hasBengaliName "Shukna morich" ;
+    food:hasCarbohydrate "35.176835236541606"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "313.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_07_0004_Cinnamon_ground a food:Food ;
+    rdfs:label "Cinnamon, ground" ;
+    food:hasBengaliName "Darchini gura" ;
+    food:hasCarbohydrate "27.49000000000001"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "243.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_07_0005_Cloves_dried a food:Food ;
+    rdfs:label "Cloves, dried" ;
+    food:hasBengaliName "Labongo" ;
+    food:hasCarbohydrate "27.365971374681024"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "267.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_07_0006_Coriander_leaves_raw a food:Food ;
+    rdfs:label "Coriander leaves, raw" ;
+    food:hasBengaliName "Dhone pata" ;
+    food:hasCarbohydrate "0.095000000000013"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "30.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_07_0007_Coriander_seed_dry a food:Food ;
+    rdfs:label "Coriander seed, dry" ;
+    food:hasBengaliName "Dhonia" ;
+    food:hasCarbohydrate "13.375773535220532"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "336.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_07_0008_Cumin_seeds a food:Food ;
+    rdfs:label "Cumin seeds" ;
+    food:hasBengaliName "Jira" ;
+    food:hasCarbohydrate "37.23333333333333"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "402.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_07_0009_Fennel_seeds a food:Food ;
+    rdfs:label "Fennel seeds" ;
+    food:hasBengaliName "Mauri" ;
+    food:hasCarbohydrate "13.03"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "329.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_07_0010_Fenugreek_seeds a food:Food ;
+    rdfs:label "Fenugreek seeds" ;
+    food:hasBengaliName "Methi" ;
+    food:hasCarbohydrate "32.81"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "330.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_07_0011_Ginger_root_raw a food:Food ;
+    rdfs:label "Ginger root, raw" ;
+    food:hasBengaliName "Ada" ;
+    food:hasCarbohydrate "13.286666666666676"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "72.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_07_0012_Indian_pennywort_raw a food:Food ;
+    rdfs:label "Indian pennywort, raw" ;
+    food:hasBengaliName "Thankuni pata" ;
+    food:hasCarbohydrate "1.554272619047623"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "37.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_07_0013_Lemon_grass_raw a food:Food ;
+    rdfs:label "Lemon grass, raw" ;
+    food:hasBengaliName "Lemon ghas" ;
+    food:hasCarbohydrate "25.5"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "116.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_07_0014_Lemon_peel_raw a food:Food ;
+    rdfs:label "Lemon peel, raw" ;
+    food:hasBengaliName "Lebur khosa" ;
+    food:hasCarbohydrate "8.65000000000002"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "65.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_07_0015_Mace_ground a food:Food ;
+    rdfs:label "Mace, ground" ;
+    food:hasBengaliName "Jayitri, gura" ;
+    food:hasCarbohydrate "33.10038113906131"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "415.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_07_0016_Nutmeg_dried a food:Food ;
+    rdfs:label "Nutmeg, dried" ;
+    food:hasBengaliName "Jayfol" ;
+    food:hasCarbohydrate "21.09008211581529"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "480.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_07_0017_Pepper_black a food:Food ;
+    rdfs:label "Pepper, black" ;
+    food:hasBengaliName "Golmorich" ;
+    food:hasCarbohydrate "43.50879283489096"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "302.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_07_0018_Poppy_seeds a food:Food ;
+    rdfs:label "Poppy seeds" ;
+    food:hasBengaliName "Posto dana" ;
+    food:hasCarbohydrate "6.787931842385518"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "523.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_07_0019_Spearmint_leaves_fresh a food:Food ;
+    rdfs:label "Spearmint leaves, fresh" ;
+    food:hasBengaliName "Pudina pata" ;
+    food:hasCarbohydrate "0.5709999999999837"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "35.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_07_0020_Turmeric_dried a food:Food ;
+    rdfs:label "Turmeric, dried" ;
+    food:hasBengaliName "Holud" ;
+    food:hasCarbohydrate "47.303333333333335"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "335.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_08_0001_Apple_without_skin_raw a food:Food ;
+    rdfs:label "Apple, without skin, raw" ;
+    food:hasBengaliName "Apel, khosa chara" ;
+    food:hasCarbohydrate "11.460000000000008"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "51.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0002_Apple_with_skin_raw a food:Food ;
+    rdfs:label "Apple, with skin, raw" ;
+    food:hasBengaliName "Apel, khosa soho" ;
+    food:hasCarbohydrate "13.548333333333318"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "62.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0003_Asian_pears_raw a food:Food ;
+    rdfs:label "Asian pears, raw" ;
+    food:hasBengaliName "Nashpati" ;
+    food:hasCarbohydrate "12.300000000000011"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "62.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0004_Banana_Sagar_ripe_raw a food:Food ;
+    rdfs:label "Banana, Sagar, ripe, raw" ;
+    food:hasBengaliName "Kola, Sagar, paka" ;
+    food:hasCarbohydrate "19.23900000000002"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "95.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0005_Breadfruit_raw a food:Food ;
+    rdfs:label "Breadfruit, raw" ;
+    food:hasBengaliName "Madar" ;
+    food:hasCarbohydrate "12.999999999999986"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "70.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Breakfast ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0006_Bullocks_Heart_ripe_raw a food:Food ;
+    rdfs:label "Bullocks Heart, ripe, raw" ;
+    food:hasBengaliName "Nona ata" ;
+    food:hasCarbohydrate "15.699999999999989"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "81.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0007_Carambola_raw a food:Food ;
+    rdfs:label "Carambola, raw" ;
+    food:hasBengaliName "Kamranga" ;
+    food:hasCarbohydrate "6.709999999999994"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "41.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0008_Custard_apple_raw a food:Food ;
+    rdfs:label "Custard apple, raw" ;
+    food:hasBengaliName "Atafol" ;
+    food:hasCarbohydrate "16.556666666666658"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "85.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0009_Dates_dried a food:Food ;
+    rdfs:label "Dates, dried" ;
+    food:hasBengaliName "Khorma" ;
+    food:hasCarbohydrate "67.5"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "301.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0010_Dates_raw a food:Food ;
+    rdfs:label "Dates, raw" ;
+    food:hasBengaliName "Khejur, paka, taza" ;
+    food:hasCarbohydrate "33.370243902439015"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "150.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0011_Elephant_apple_ripe_raw a food:Food ;
+    rdfs:label "Elephant apple, ripe, raw" ;
+    food:hasBengaliName "Kodbel" ;
+    food:hasCarbohydrate "10.329999999999998"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "64.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0012_Emblic_raw a food:Food ;
+    rdfs:label "Emblic, raw" ;
+    food:hasBengaliName "Amloki" ;
+    food:hasCarbohydrate "8.303333333333327"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "44.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0013_Fig_ripe_raw a food:Food ;
+    rdfs:label "Fig, ripe, raw" ;
+    food:hasBengaliName "Dumur, paka" ;
+    food:hasCarbohydrate "6.681059602649015"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "40.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0014_Grapes_green_raw a food:Food ;
+    rdfs:label "Grapes, green, raw" ;
+    food:hasBengaliName "Angur, halka sobuj" ;
+    food:hasCarbohydrate "20.18249999999999"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "94.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0015_Guava_green_raw a food:Food ;
+    rdfs:label "Guava, green, raw" ;
+    food:hasBengaliName "Peyara, bivinno variety,  kancha" ;
+    food:hasCarbohydrate "10.92552380952381"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "63.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0016_Hog_plum_raw a food:Food ;
+    rdfs:label "Hog plum, raw" ;
+    food:hasBengaliName "Amra" ;
+    food:hasCarbohydrate "8.892500000000013"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "51.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0017_Jackfruit_ripe_raw a food:Food ;
+    rdfs:label "Jackfruit, ripe, raw" ;
+    food:hasBengaliName "Kathal, paka" ;
+    food:hasCarbohydrate "13.28600000000003"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "74.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0018_Jambolan_raw a food:Food ;
+    rdfs:label "Jambolan, raw" ;
+    food:hasBengaliName "Kalojam" ;
+    food:hasCarbohydrate "6.116"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "39.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0019_Jambos_raw a food:Food ;
+    rdfs:label "Jambos, raw" ;
+    food:hasBengaliName "Jamrul" ;
+    food:hasCarbohydrate "8.0"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "40.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0020_Java_apple_raw a food:Food ;
+    rdfs:label "Java apple, raw" ;
+    food:hasBengaliName "Golapjam" ;
+    food:hasCarbohydrate "6.894999999999996"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "35.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0021_Jujube_raw a food:Food ;
+    rdfs:label "Jujube, raw" ;
+    food:hasBengaliName "Boroi" ;
+    food:hasCarbohydrate "12.620000000000005"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "60.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0022_Lemon_Kagoji_raw a food:Food ;
+    rdfs:label "Lemon, Kagoji, raw" ;
+    food:hasBengaliName "Lebu, Kagoji" ;
+    food:hasCarbohydrate "10.181666666666672"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "56.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0023_Lime_sweet_raw a food:Food ;
+    rdfs:label "Lime, sweet, raw" ;
+    food:hasBengaliName "Mushambee" ;
+    food:hasCarbohydrate "8.499999999999986"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "42.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0024_Lychee_raw a food:Food ;
+    rdfs:label "Lychee, raw" ;
+    food:hasBengaliName "Lichu" ;
+    food:hasCarbohydrate "10.184448717948712"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "62.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0025_Mango_Fazli_orange_flesh_ripe_raw a food:Food ;
+    rdfs:label "Mango, Fazli, orange flesh, ripe, raw" ;
+    food:hasBengaliName "Aam, Fazli, paka" ;
+    food:hasCarbohydrate "14.717500000000015"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "70.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0026_Mango_Langra_yellow_flesh_ripe_raw a food:Food ;
+    rdfs:label "Mango, Langra, yellow flesh, ripe, raw" ;
+    food:hasBengaliName "Aam, Langra, paka" ;
+    food:hasCarbohydrate "18.033500000000004"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "82.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0027_Melon_Futi_orange_flesh_ripe_raw a food:Food ;
+    rdfs:label "Melon, Futi, orange flesh, ripe, raw" ;
+    food:hasBengaliName "Futi, paka" ;
+    food:hasCarbohydrate "3.140000000000001"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "17.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0028_Monkey-jack_yellowish-orange_flesh_raw a food:Food ;
+    rdfs:label "Monkey-jack, yellowish-orange flesh, raw" ;
+    food:hasBengaliName "Dewa" ;
+    food:hasCarbohydrate "21.116666666666674"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "103.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0029_Muskmelon_Bangee_light_orange_flesh_ripe_raw a food:Food ;
+    rdfs:label "Muskmelon, Bangee, light orange flesh, ripe, raw" ;
+    food:hasBengaliName "Bangee, paka" ;
+    food:hasCarbohydrate "2.799999999999997"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "16.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0030_Orange_juice_raw_unsweetened a food:Food ;
+    rdfs:label "Orange juice, raw (unsweetened)" ;
+    food:hasBengaliName "Komolar ross" ;
+    food:hasCarbohydrate "1.7000000000000028"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "9.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0031_Orange_raw a food:Food ;
+    rdfs:label "Orange, raw" ;
+    food:hasBengaliName "Komola" ;
+    food:hasCarbohydrate "8.719999999999985"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "44.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0032_Orange_sweet_ripe_raw a food:Food ;
+    rdfs:label "Orange, sweet, ripe, raw " ;
+    food:hasBengaliName "Malta, paka" ;
+    food:hasCarbohydrate "10.700000000000005"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "49.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0033_Palmyra_palm_cotyledon_raw a food:Food ;
+    rdfs:label "Palmyra palm, cotyledon, raw" ;
+    food:hasBengaliName "Kochi taal er shas" ;
+    food:hasCarbohydrate "6.850000000000023"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "31.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0034_Palmyra_palm_pulp_orange_flesh_ripe_raw a food:Food ;
+    rdfs:label "Palmyra palm, pulp, orange flesh, ripe, raw" ;
+    food:hasBengaliName "Taal, paka" ;
+    food:hasCarbohydrate "17.818525000000008"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "78.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0035_Papaya_ripe_raw a food:Food ;
+    rdfs:label "Papaya, ripe, raw" ;
+    food:hasBengaliName "Pepe, paka" ;
+    food:hasCarbohydrate "6.455833333333345"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "33.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0036_Persimmon_ripe_raw a food:Food ;
+    rdfs:label "Persimmon, ripe, raw" ;
+    food:hasBengaliName "Gab, Bilati, paka" ;
+    food:hasCarbohydrate "13.935666666666677"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "67.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0037_Pineapple_Joldugee_ripe_raw a food:Food ;
+    rdfs:label "Pineapple, Joldugee, ripe, raw" ;
+    food:hasBengaliName "Anaros, Joldugee, paka" ;
+    food:hasCarbohydrate "8.328333333333319"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "43.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0038_Pineapple_ripe_raw a food:Food ;
+    rdfs:label "Pineapple, ripe, raw" ;
+    food:hasBengaliName "Anaros, paka" ;
+    food:hasCarbohydrate "9.696999999999989"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "47.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0039_Pomegranate_ripe_with_seed_raw a food:Food ;
+    rdfs:label "Pomegranate, ripe, with seed, raw" ;
+    food:hasBengaliName "Bedana, paka, bichi soho" ;
+    food:hasCarbohydrate "12.700000000000005"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "67.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0040_Pomelo_raw a food:Food ;
+    rdfs:label "Pomelo, raw" ;
+    food:hasBengaliName "Zambura" ;
+    food:hasCarbohydrate "7.693333333333328"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "38.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0041_Tamarind_pulp_sweet_ripe_raw a food:Food ;
+    rdfs:label "Tamarind, pulp, sweet, ripe, raw" ;
+    food:hasBengaliName "Tetul, paka, misti" ;
+    food:hasCarbohydrate "60.75641904761905"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "270.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0042_Watermelon_ripe_raw a food:Food ;
+    rdfs:label "Watermelon, ripe, raw" ;
+    food:hasBengaliName "Tarmuz, lal, paka" ;
+    food:hasCarbohydrate "4.381666666666646"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "22.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_08_0043_Woodapple_ripe_raw a food:Food ;
+    rdfs:label "Woodapple, ripe, raw" ;
+    food:hasBengaliName "Bel, paka" ;
+    food:hasCarbohydrate "20.855833333333337"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "111.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_09_0001_Anchovy_Gangetic_hairfin_dried a food:Food ;
+    rdfs:label "Anchovy, Gangetic hairfin, dried" ;
+    food:hasBengaliName "Fesha, shutki" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "328.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0002_Anchovy_Gangetic_hairfin_raw a food:Food ;
+    rdfs:label "Anchovy, Gangetic hairfin, raw" ;
+    food:hasBengaliName "Fesha" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "105.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0003_Anchovy_Goldspotted_grebadier_raw a food:Food ;
+    rdfs:label "Anchovy, Goldspotted grebadier, raw" ;
+    food:hasBengaliName "Olua" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "71.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0004_Anchovy_Scaly_hairfin_raw a food:Food ;
+    rdfs:label "Anchovy, Scaly hairfin, raw" ;
+    food:hasBengaliName "Fesha, Teli" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "101.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0005_Barb_Olive_raw a food:Food ;
+    rdfs:label "Barb, Olive, raw " ;
+    food:hasBengaliName "Sorpunti" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "175.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0006_Barb_Olive_without_bones_raw a food:Food ;
+    rdfs:label "Barb, Olive, without bones, raw" ;
+    food:hasBengaliName "Sorpunti, kata chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "175.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0007_Barb_Pool_barb_eyes_included_raw a food:Food ;
+    rdfs:label "Barb, Pool barb, eyes included, raw" ;
+    food:hasBengaliName "Punti, Vadi punti, chokh soho" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "139.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0008_Barb_Pool_barb_without_bones_eyes_included_raw a food:Food ;
+    rdfs:label "Barb, Pool barb, without bones, eyes included, raw" ;
+    food:hasBengaliName "Punti, Vadi punti, chokh soho,  kata chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "94.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0009_Bata_raw a food:Food ;
+    rdfs:label "Bata, raw" ;
+    food:hasBengaliName "Bata" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "106.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0010_Boalwithout_bones_raw a food:Food ;
+    rdfs:label "Boal,without bones, raw" ;
+    food:hasBengaliName "Boal, kata chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "80.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0011_Bronze_featherback_raw a food:Food ;
+    rdfs:label "Bronze featherback, raw" ;
+    food:hasBengaliName "Foli" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "80.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0012_Calbasu_without_bones_raw a food:Food ;
+    rdfs:label "Calbasu, without bones, raw" ;
+    food:hasBengaliName "Kalbaush, kata chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "95.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0013_Catfish_Bacha_raw a food:Food ;
+    rdfs:label "Catfish, Bacha, raw" ;
+    food:hasBengaliName "Bacha" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "122.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0014_Catfish_Pabdah_raw a food:Food ;
+    rdfs:label "Catfish, Pabdah, raw" ;
+    food:hasBengaliName "Pabda" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "95.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0015_Catla_raw a food:Food ;
+    rdfs:label "Catla, raw" ;
+    food:hasBengaliName "Katla" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "103.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0016_Chanda_Indian_glaasy_fish_eyes_included_raw a food:Food ;
+    rdfs:label "Chanda, Indian glaasy fish, eyes included, raw" ;
+    food:hasBengaliName "Chanda, Ranga, chokh soho" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "115.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0017_Climbing_perch_indigenous_eyes_included_raw a food:Food ;
+    rdfs:label "Climbing perch, indigenous, eyes included, raw " ;
+    food:hasBengaliName "Koi, deshi, chokh soho" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "130.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0018_Climbing_perch_Thai_without_bones_eyes_included_raw a food:Food ;
+    rdfs:label "Climbing perch, Thai, without bones, eyes included, raw" ;
+    food:hasBengaliName "Koi, Thai, chokh soho" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "139.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0019_Clown_knifefish_without_bones_raw a food:Food ;
+    rdfs:label "Clown knifefish, without bones, raw" ;
+    food:hasBengaliName "Chital, kata chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "96.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0020_Common_carp_without_bones_raw a food:Food ;
+    rdfs:label "Common carp, without bones, raw" ;
+    food:hasBengaliName "Common carp, kata chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "88.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0021_Croaker_Blackspotted_without_bones_raw a food:Food ;
+    rdfs:label "Croaker, Blackspotted, without bones, raw" ;
+    food:hasBengaliName "Poa, kata chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "100.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0022_Days_mystus_combined_species_eyes_included_raw a food:Food ;
+    rdfs:label "Day's mystus, combined species, eyes included, raw" ;
+    food:hasBengaliName "Tengra, bivinno projati, chokh soho" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "114.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0023_Fish_Catla_Mrigal_Rohu_dorsal_with_skin_raw a food:Food ;
+    rdfs:label "Fish (Catla, Mrigal, Rohu), dorsal with skin, raw" ;
+    food:hasBengaliName "Macher gada (Katla, Mrigal, Rui)" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "104.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0024_Fish_Catla_Mrigal_Rohu_ventral_with_skin_raw a food:Food ;
+    rdfs:label "Fish (Catla, Mrigal, Rohu), ventral with skin, raw" ;
+    food:hasBengaliName "Macher peti (Katla, Mrigal,Rui)" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "130.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0025_Ganges_river_sprat_combined_species_raw a food:Food ;
+    rdfs:label "Ganges river sprat, combined species, raw" ;
+    food:hasBengaliName "Kachki, bivinno projati" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "93.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0026_Gangetic_ailia_raw a food:Food ;
+    rdfs:label "Gangetic ailia, raw" ;
+    food:hasBengaliName "Kajuli" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "117.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0027_Gangetic_mystus_raw a food:Food ;
+    rdfs:label "Gangetic mystus, raw" ;
+    food:hasBengaliName "Gulsha" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "86.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0028_Giant_river-catfish_raw a food:Food ;
+    rdfs:label "Giant river-catfish, raw" ;
+    food:hasBengaliName "Guizza" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "75.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0029_Giant_seaperch_whole_dried a food:Food ;
+    rdfs:label "Giant seaperch, whole, dried" ;
+    food:hasBengaliName "Vetkee, shutki" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "318.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0030_Giant_seaperchwithout_bones_raw a food:Food ;
+    rdfs:label "Giant seaperch,without bones, raw" ;
+    food:hasBengaliName "Vetkee, kata chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "96.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0031_Goby_Tank_goby_raw a food:Food ;
+    rdfs:label "Goby, Tank goby, raw" ;
+    food:hasBengaliName "Bele" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "81.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0032_Gourami_Banded_gourami_eyes_included_raw a food:Food ;
+    rdfs:label "Gourami, Banded gourami, eyes included, raw" ;
+    food:hasBengaliName "Khailsa, kata chara, chokh soho" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "105.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0033_Hilsa_without_bones_raw a food:Food ;
+    rdfs:label "Hilsa, without bones, raw " ;
+    food:hasBengaliName "Ilish, kata chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "223.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0034_Indian_river_shad_raw a food:Food ;
+    rdfs:label "Indian river shad, raw" ;
+    food:hasBengaliName "Chapila" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "106.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0035_Indian_threadfin_without_bones_raw a food:Food ;
+    rdfs:label "Indian threadfin, without bones, raw" ;
+    food:hasBengaliName "Lakkha, kata chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "100.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0036_Indo-pacific_king_mackerel_without_bones_raw a food:Food ;
+    rdfs:label "Indo-pacific king mackerel, without bones, raw " ;
+    food:hasBengaliName "Surma/ Bijoram, kata chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "102.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0037_Kuria_labeo_without_bones_raw a food:Food ;
+    rdfs:label "Kuria labeo, without bones, raw" ;
+    food:hasBengaliName "Gonia, kata chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "109.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0038_Long-whiskered_catfish_without_bones_raw a food:Food ;
+    rdfs:label "Long-whiskered catfish, without bones, raw" ;
+    food:hasBengaliName "Ayre, kata chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "89.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0039_Mackerel_Narrow-barred_Spanish_raw a food:Food ;
+    rdfs:label "Mackerel, Narrow-barred Spanish, raw" ;
+    food:hasBengaliName "Chompa" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "112.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0040_Minnow_Finescale_razorbelly_raw a food:Food ;
+    rdfs:label "Minnow, Finescale razorbelly, raw" ;
+    food:hasBengaliName "Chela, Fulchela" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "95.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0041_Minnow_Finescale_razorbelly_dried a food:Food ;
+    rdfs:label "Minnow, Finescale razorbelly, dried" ;
+    food:hasBengaliName "Chela, Fulchela, shukna" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "412.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0042_Minnow_Largescale_razorbelly_raw a food:Food ;
+    rdfs:label "Minnow, Largescale razorbelly, raw" ;
+    food:hasBengaliName "Chela, Narkeli" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "119.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0043_Mola_carplet_whole_eyes_included_raw a food:Food ;
+    rdfs:label "Mola carplet, whole, eyes included, raw" ;
+    food:hasBengaliName "Mola, chokh soho" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "108.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0044_Mrigal_carp_eyes_included_raw a food:Food ;
+    rdfs:label "Mrigal carp, eyes included, raw" ;
+    food:hasBengaliName "Mrigal, chokh soho" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "102.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0045_Mullet_Goldspot_raw a food:Food ;
+    rdfs:label "Mullet, Goldspot, raw" ;
+    food:hasBengaliName "Parshe" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "120.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0046_MusselClam_mixed_species_raw a food:Food ;
+    rdfs:label "Mussel/Clam, mixed species, raw" ;
+    food:hasBengaliName "Jhinuk" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "60.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0047_Pangas_without_bones_raw a food:Food ;
+    rdfs:label "Pangas, without bones, raw" ;
+    food:hasBengaliName "Pangas, kata chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "162.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0048_Perch_Mud_raw a food:Food ;
+    rdfs:label "Perch, Mud, raw" ;
+    food:hasBengaliName "Meni" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "99.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0049_Pomfret_Black_raw a food:Food ;
+    rdfs:label "Pomfret, Black, raw" ;
+    food:hasBengaliName "Rupchanda, kalo, bivinno projati" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "112.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0050_Pomfret_Chinese_Silver_raw a food:Food ;
+    rdfs:label "Pomfret, Chinese Silver, raw" ;
+    food:hasBengaliName "Rupchanda, China sada" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "103.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0051_Pomfret_Silver_dried a food:Food ;
+    rdfs:label "Pomfret, Silver, dried" ;
+    food:hasBengaliName "Rupchanda, sada, shutki" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "349.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0052_Pomfret_Silver_without_bones_raw a food:Food ;
+    rdfs:label "Pomfret, Silver, without bones, raw" ;
+    food:hasBengaliName "Rupchanda, Sada" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "108.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0053_Prawn_Birma_river_prawn_raw a food:Food ;
+    rdfs:label "Prawn, Birma river prawn, raw" ;
+    food:hasBengaliName "Chingri, Birma nodir" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "86.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0054_Prawn_Giant_river_prawn_raw a food:Food ;
+    rdfs:label "Prawn, Giant river prawn, raw" ;
+    food:hasBengaliName "Chingri, Golda" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "102.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0055_Prawn_Giant_tiger_prawn_raw a food:Food ;
+    rdfs:label "Prawn, Giant tiger prawn, raw" ;
+    food:hasBengaliName "Chingri, Bagda" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "92.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0056_Prawn_Hairy_river_prawn_raw a food:Food ;
+    rdfs:label "Prawn, Hairy river prawn, raw" ;
+    food:hasBengaliName "Chingri" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "75.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0057_Prawn_Indian_white_prawn_raw a food:Food ;
+    rdfs:label "Prawn, Indian white prawn, raw" ;
+    food:hasBengaliName "Chingri sada, nodir" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "95.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0058_Prawn_Monsoon_river_prawn_raw a food:Food ;
+    rdfs:label "Prawn, Monsoon river prawn, raw" ;
+    food:hasBengaliName "Chingri, nodir" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "79.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0059_Rohu_river_raw a food:Food ;
+    rdfs:label "Rohu, river, raw" ;
+    food:hasBengaliName "Rui, nodir" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "90.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0060_Rohu_without_bones_raw a food:Food ;
+    rdfs:label "Rohu, without bones, raw" ;
+    food:hasBengaliName "Rui, kata chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "105.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0061_Shrimp_Speckled_raw a food:Food ;
+    rdfs:label "Shrimp, Speckled, raw" ;
+    food:hasBengaliName "Chingri, Horina" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "81.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0062_Silver_carp_without_bones_raw a food:Food ;
+    rdfs:label "Silver carp, without bones, raw " ;
+    food:hasBengaliName "Silver carp, kata chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "123.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0063_Silver_needle_fish_eyes_included_raw a food:Food ;
+    rdfs:label "Silver needle fish, eyes included, raw" ;
+    food:hasBengaliName "Kakila, chokh soho" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "94.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0064_Spotted_snakehead_raw a food:Food ;
+    rdfs:label "Spotted snakehead, raw" ;
+    food:hasBengaliName "Taki, kata chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "91.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0065_Stinging_catfiah_raw a food:Food ;
+    rdfs:label "Stinging catfiah, raw" ;
+    food:hasBengaliName "Shing mach, kata chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "101.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0066_Stone_roller_raw a food:Food ;
+    rdfs:label "Stone roller, raw" ;
+    food:hasBengaliName "Tatkini" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "97.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0067_Striped_snake-head_raw a food:Food ;
+    rdfs:label "Striped snake-head, raw" ;
+    food:hasBengaliName "Shol, kata chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "101.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0068_Tilapia_without_bones_raw a food:Food ;
+    rdfs:label "Tilapia, without bones, raw" ;
+    food:hasBengaliName "Telapia, kata chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "110.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0069_Tuna_without_bones_raw a food:Food ;
+    rdfs:label "Tuna, without bones, raw" ;
+    food:hasBengaliName "Tuna, kata chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "118.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0070_Walking_catifish_without_bones_raw a food:Food ;
+    rdfs:label "Walking catifish, without bones, raw" ;
+    food:hasBengaliName "Magur, kata chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "103.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0071_Small_fish_fry a food:Food ;
+    rdfs:label "Small fish fry*" ;
+    food:hasBengaliName "Kachki mach vaja" ;
+    food:hasCarbohydrate "5.265014787533073"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "107.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Snack ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_09_0072_Fish_ball a food:Food ;
+    rdfs:label "Fish ball*" ;
+    food:hasBengaliName "Macher kopta" ;
+    food:hasCarbohydrate "21.7"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "220.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_10_0001_Beef_liver_raw a food:Food ;
+    rdfs:label "Beef liver, raw" ;
+    food:hasBengaliName "Gorur koliza" ;
+    food:hasCarbohydrate "3.890000000000001"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "130.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_10_0002_Beef_meat_lean_boneless_raw a food:Food ;
+    rdfs:label "Beef, meat, lean, boneless, raw" ;
+    food:hasBengaliName "Gorur mangsaw, harh o chorbi chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "103.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_10_0003_Beef_meat_15-20_fat_boneless_raw a food:Food ;
+    rdfs:label "Beef, meat, 15-20 % fat, boneless, raw" ;
+    food:hasBengaliName "Gorur mangsaw, harh chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "207.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_10_0004_Beef_mince_lean_raw a food:Food ;
+    rdfs:label "Beef, mince, lean, raw" ;
+    food:hasBengaliName "Gorur mangsaw, kima" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "126.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_10_0005_Buffalo_meat_raw a food:Food ;
+    rdfs:label "Buffalo meat, raw" ;
+    food:hasBengaliName "Mohisher mangsaw" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "95.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_10_0006_Chicken_breast_without_skin_raw a food:Food ;
+    rdfs:label "Chicken breast, without skin, raw" ;
+    food:hasBengaliName "Murgi, buker mangsaw, chamra charano" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "106.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_10_0007_Chicken_leg_without_skin_raw a food:Food ;
+    rdfs:label "Chicken leg, without skin, raw" ;
+    food:hasBengaliName "Murgi, ranner mangsaw, chamra charano" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "128.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_10_0008_Chicken_liver_raw a food:Food ;
+    rdfs:label "Chicken liver, raw" ;
+    food:hasBengaliName "Murgir koliza" ;
+    food:hasCarbohydrate "0.730000000000004"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "114.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_10_0009_Duck_meat_raw a food:Food ;
+    rdfs:label "Duck, meat, raw" ;
+    food:hasBengaliName "Hasher mangsaw" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "130.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_10_0010_Frog_legs_raw a food:Food ;
+    rdfs:label "Frog, legs, raw" ;
+    food:hasBengaliName "Bang" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "68.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_10_0011_Goat_meat_lean_raw a food:Food ;
+    rdfs:label "Goat meat, lean, raw" ;
+    food:hasBengaliName "Khaseer mangsaw" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "118.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_10_0012_Lambmutton_meat_moderately_fat_raw a food:Food ;
+    rdfs:label "Lamb/mutton, meat, moderately fat, raw" ;
+    food:hasBengaliName "Verar mangsaw" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "196.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_10_0013_LambMutton_liverraw a food:Food ;
+    rdfs:label "Lamb/Mutton, liver,raw" ;
+    food:hasBengaliName "Verar koliza" ;
+    food:hasCarbohydrate "1.2999999999999972"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "150.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_10_0014_Pigeon_meat_raw a food:Food ;
+    rdfs:label "Pigeon meat, raw" ;
+    food:hasBengaliName "Kobutorer mangsaw" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "137.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_10_0015_Pork_meat_5_fat_raw a food:Food ;
+    rdfs:label "Pork, meat, <5 % fat, raw" ;
+    food:hasBengaliName "Shukorer mangsaw" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "114.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_10_0016_Beef_handi_kabab a food:Food ;
+    rdfs:label "Beef handi kabab*" ;
+    food:hasBengaliName "Haaree kabab (goru)" ;
+    food:hasCarbohydrate "6.553439210415981"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "233.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_11_0001_Egg_chicken_farmed_raw a food:Food ;
+    rdfs:label "Egg, chicken, farmed, raw " ;
+    food:hasBengaliName "Murgir dim, farm er" ;
+    food:hasCarbohydrate "0.01"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "139.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Breakfast ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_11_0002_Egg_chicken_native_raw a food:Food ;
+    rdfs:label "Egg, chicken, native, raw" ;
+    food:hasBengaliName "Murgir dim, deshi " ;
+    food:hasCarbohydrate "0.01"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "158.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Breakfast ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_11_0003_Egg_chicken_yolk_raw a food:Food ;
+    rdfs:label "Egg, chicken, yolk, raw" ;
+    food:hasBengaliName "Murgir dim r kusum, deshi " ;
+    food:hasCarbohydrate "2.625"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "325.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Breakfast ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_11_0004_Egg_duck_whole_raw a food:Food ;
+    rdfs:label "Egg, duck, whole, raw" ;
+    food:hasBengaliName "Hasher dim" ;
+    food:hasCarbohydrate "1.4416666666666629"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "188.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Breakfast ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_11_0005_Egg_chicken_farmed_boiled_without_salt a food:Food ;
+    rdfs:label "Egg, chicken, farmed, boiled* (without salt)" ;
+    food:hasBengaliName "Murgir Dim siddha, lobon chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "158.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Breakfast ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_11_0006_Egg_chicken_native_boiled_without_salt a food:Food ;
+    rdfs:label "Egg, chicken, native, boiled* (without salt)" ;
+    food:hasBengaliName "Deshi murgir dim siddha, lobon chara" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "179.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Breakfast ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_11_0007_Egg_duck_whole_boiled_without_salt a food:Food ;
+    rdfs:label "Egg, duck, whole, boiled* (without salt)" ;
+    food:hasBengaliName "Hasher dim siddha, lobon chara" ;
+    food:hasCarbohydrate "1.6382575757575717"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "214.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Breakfast ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_12_0001_Buttermilk_fluid_low_fat a food:Food ;
+    rdfs:label "Buttermilk, fluid, low fat" ;
+    food:hasBengaliName "Ghol" ;
+    food:hasCarbohydrate "3.080833333333331"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "33.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_12_0002_Cheese_cottage_25_fat a food:Food ;
+    rdfs:label "Cheese, cottage, 25% fat" ;
+    food:hasBengaliName "Poneer" ;
+    food:hasCarbohydrate "5.398719999999997"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "346.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_12_0003_Curd_sweetened_whole_milk a food:Food ;
+    rdfs:label "Curd, sweetened, whole milk" ;
+    food:hasBengaliName "Doi, misti" ;
+    food:hasCarbohydrate "11.435520000000013"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "94.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Dessert ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_12_0004_Milk_buffalo_whole_fat a food:Food ;
+    rdfs:label "Milk, buffalo, whole fat" ;
+    food:hasBengaliName "Mohiser dudh" ;
+    food:hasCarbohydrate "4.690296398768794"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "101.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_12_0005_Milk_cow_powder_skimmed a food:Food ;
+    rdfs:label "Milk, cow, powder, skimmed" ;
+    food:hasBengaliName "Gura dudh, Goru, makhon tola/noniheen " ;
+    food:hasCarbohydrate "49.78456"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "358.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_12_0006_Milk_cow_powder_whole a food:Food ;
+    rdfs:label "Milk, cow, powder, whole" ;
+    food:hasBengaliName "Gura dudh, Goru, noni soho" ;
+    food:hasCarbohydrate "37.53223111111112"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "497.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_12_0007_Milk_cow_skimmed a food:Food ;
+    rdfs:label "Milk, cow, skimmed" ;
+    food:hasBengaliName "Gorur dudh, makhon tola/noniheen " ;
+    food:hasCarbohydrate "4.082000000000008"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "30.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_12_0008_Milk_cow_whole_fat_pasteurised_UTH a food:Food ;
+    rdfs:label "Milk, cow, whole fat (pasteurised, UTH)" ;
+    food:hasBengaliName "Gorur dudh, purno noni soho" ;
+    food:hasCarbohydrate "4.272000000000006"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "63.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_12_0009_Milk_cow_whole_condensed_sweetened a food:Food ;
+    rdfs:label "Milk, cow, whole, condensed, sweetened" ;
+    food:hasBengaliName "Kondense milk, Goru, chini soho" ;
+    food:hasCarbohydrate "54.035"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "334.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Dessert ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_12_0010_Milk_goat_combined_breeds a food:Food ;
+    rdfs:label "Milk, goat, combined breeds" ;
+    food:hasBengaliName "Chagoler dudh" ;
+    food:hasCarbohydrate "4.274970256410256"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "68.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_12_0011_Milk_human_colostrum_raw a food:Food ;
+    rdfs:label "Milk, human, colostrum, raw" ;
+    food:hasBengaliName "Shaldudh" ;
+    food:hasCarbohydrate "6.6000000000000085"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "58.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone false .
+
+food:food_12_0012_Milk_human_mature_raw a food:Food ;
+    rdfs:label "Milk, human, mature, raw" ;
+    food:hasBengaliName "Mayer dudh" ;
+    food:hasCarbohydrate "7.171896551724132"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "69.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Protein ;
+    food:isStandalone false .
+
+food:food_12_0013_Payesh a food:Food ;
+    rdfs:label "Payesh*" ;
+    food:hasBengaliName "Payesh" ;
+    food:hasCarbohydrate "36.22342181327571"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "205.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Dessert ;
+    food:hasRole food:Mixed ;
+    food:isStandalone true .
+
+food:food_13_0001_Butter_salted a food:Food ;
+    rdfs:label "Butter, salted" ;
+    food:hasBengaliName "Makhon, nonta" ;
+    food:hasCarbohydrate "0.1700000000000017"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "733.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_13_0002_Cottonseed_oil a food:Food ;
+    rdfs:label "Cottonseed oil" ;
+    food:hasBengaliName "Tular bij er tel" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "900.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_13_0003_Fish_oil_cod_liver a food:Food ;
+    rdfs:label "Fish oil, cod liver" ;
+    food:hasBengaliName "Kod liver tel" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "900.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_13_0004_Ghee_cow a food:Food ;
+    rdfs:label "Ghee, cow" ;
+    food:hasBengaliName "Ghee, gorur" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "898.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_13_0005_Ghee_vegetable a food:Food ;
+    rdfs:label "Ghee, vegetable" ;
+    food:hasBengaliName "Dalda/Bonoshpati" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "900.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_13_0006_Margarine a food:Food ;
+    rdfs:label "Margarine" ;
+    food:hasBengaliName "Margarine" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "750.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_13_0007_Mayonnaise_salted a food:Food ;
+    rdfs:label "Mayonnaise, salted" ;
+    food:hasBengaliName "Mayonnaise, nonta" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "732.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_13_0008_Mustard_oil a food:Food ;
+    rdfs:label "Mustard oil" ;
+    food:hasBengaliName "Sorishar tel" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "900.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_13_0009_Palm_oil a food:Food ;
+    rdfs:label "Palm oil" ;
+    food:hasBengaliName "Palm tel" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "900.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_13_0010_Peanut_oil a food:Food ;
+    rdfs:label "Peanut oil" ;
+    food:hasBengaliName "China badam er tel" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "900.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_13_0011_Sesame_oil a food:Food ;
+    rdfs:label "Sesame oil" ;
+    food:hasBengaliName "Tiler tel" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "900.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_13_0012_Soya_oil a food:Food ;
+    rdfs:label "Soya oil" ;
+    food:hasBengaliName "Soyabean tel" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "900.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_14_0001_Coconut_water a food:Food ;
+    rdfs:label "Coconut water" ;
+    food:hasBengaliName "Daber pani" ;
+    food:hasCarbohydrate "3.194999999999993"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "20.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Beverage ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_14_0002_Coffee_infusion_instant_with_sugar_and_milk_powder_whole_fat a food:Food ;
+    rdfs:label "Coffee infusion (instant with sugar and milk powder, whole fat)" ;
+    food:hasBengaliName "Coffee, dudh o chini soho" ;
+    food:hasCarbohydrate "6.768453106465727"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "38.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Beverage ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_14_0003_Coffee_powder a food:Food ;
+    rdfs:label "Coffee, powder" ;
+    food:hasBengaliName "Coffee" ;
+    food:hasCarbohydrate "75.4"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "355.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Beverage ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_14_0004_Soft_drinks_carbonated a food:Food ;
+    rdfs:label "Soft drinks, carbonated" ;
+    food:hasBengaliName "Komol paniyo" ;
+    food:hasCarbohydrate "10.319999999999991"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "41.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Beverage ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_14_0005_Soya_milk_not_sweetened a food:Food ;
+    rdfs:label "Soya milk (not sweetened)" ;
+    food:hasBengaliName "Soyabean dudh" ;
+    food:hasCarbohydrate "4.93104000000001"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "54.0"^^xsd:float ;
+    food:hasGICategory food:Medium ;
+    food:hasMealType food:Beverage ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_14_0006_Sugar_cane_Juice a food:Food ;
+    rdfs:label "Sugar cane Juice" ;
+    food:hasBengaliName "Akher Ross" ;
+    food:hasCarbohydrate "7.5"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "33.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Beverage ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_14_0007_Tea_infusion_with_sugar_and_milk_powder_whole_fat a food:Food ;
+    rdfs:label "Tea infusion (with sugar and milk powder, whole fat)" ;
+    food:hasBengaliName "Dudh cha" ;
+    food:hasCarbohydrate "7.589181214203895"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "41.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Beverage ;
+    food:hasRole food:Protein ;
+    food:isStandalone true .
+
+food:food_14_0008_Tea_infusion_with_sugar a food:Food ;
+    rdfs:label "Tea, infusion (with sugar)" ;
+    food:hasBengaliName "Likar cha" ;
+    food:hasCarbohydrate "7.086200527704485"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "29.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Beverage ;
+    food:hasRole food:Carb ;
+    food:isStandalone true .
+
+food:food_14_0009_Tea_powder a food:Food ;
+    rdfs:label "Tea, powder" ;
+    food:hasBengaliName "Cha pata" ;
+    food:hasCarbohydrate "49.5425"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "296.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Beverage ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_14_0010_Water_drinking a food:Food ;
+    rdfs:label "Water, drinking" ;
+    food:hasBengaliName "Khabar pani" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "0.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Beverage ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_15_0002_Betel_leaves_raw a food:Food ;
+    rdfs:label "Betel leaves, raw" ;
+    food:hasBengaliName "Pan pata" ;
+    food:hasCarbohydrate "4.099999999999994"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "42.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Vegetable ;
+    food:isStandalone true .
+
+food:food_15_0003_Honey a food:Food ;
+    rdfs:label "Honey" ;
+    food:hasBengaliName "Modhu" ;
+    food:hasCarbohydrate "81.125"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "326.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_15_0004_Jaggery_sugarcane_solid a food:Food ;
+    rdfs:label "Jaggery, sugarcane, solid" ;
+    food:hasBengaliName "Gur, Akh" ;
+    food:hasCarbohydrate "95.4"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "385.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_15_0005_JaggeryPanela_date_palm a food:Food ;
+    rdfs:label "Jaggery/Panela, date palm" ;
+    food:hasBengaliName "Gur, Khejur" ;
+    food:hasCarbohydrate "85.7"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "352.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_15_0006_Jagggery_liquid_date_palm a food:Food ;
+    rdfs:label "Jagggery liquid, date palm" ;
+    food:hasBengaliName "Nolen gur" ;
+    food:hasCarbohydrate "20.885000000000005"^^xsd:float ;
+    food:hasDietCluster food:Moderate ;
+    food:hasEnergy "86.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_15_0007_Salt a food:Food ;
+    rdfs:label "Salt" ;
+    food:hasBengaliName "Lobon" ;
+    food:hasCarbohydrate "0.0"^^xsd:float ;
+    food:hasDietCluster food:Diabetic_Safe ;
+    food:hasEnergy "0.0"^^xsd:float ;
+    food:hasGICategory food:Low ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:food_15_0008_Sugar_white a food:Food ;
+    rdfs:label "Sugar, white" ;
+    food:hasBengaliName "Chini, sada" ;
+    food:hasCarbohydrate "99.5"^^xsd:float ;
+    food:hasDietCluster food:Limit ;
+    food:hasEnergy "398.0"^^xsd:float ;
+    food:hasGICategory food:High ;
+    food:hasMealType food:Lunch_Dinner ;
+    food:hasRole food:Condiment ;
+    food:isStandalone false .
+
+food:hasBengaliName a rdf:Property .
+
+food:hasCarbohydrate a rdf:Property .
+
+food:hasDietCluster a rdf:Property .
+
+food:hasEnergy a rdf:Property .
+
+food:hasGICategory a rdf:Property .
+
+food:hasMealType a rdf:Property .
+
+food:hasRole a rdf:Property .
+
+food:isStandalone a rdf:Property .
+

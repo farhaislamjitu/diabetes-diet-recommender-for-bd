@@ -1,0 +1,4 @@
+patient_label,total_claims,supported_claims,faithfulness_score
+Patient A,15,14,0.9333333333333333
+Patient B,22,20,0.9090909090909091
+Patient C,14,14,1.0

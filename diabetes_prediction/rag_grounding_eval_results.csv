@@ -1,0 +1,4 @@
+Patient,Prediction,Total_Candidates,Grounded,Grounding_Rate,Portion_Fidelity_Rate
+Patient A,Non-Diabetic,10,10,1.0,1.0
+Patient B,Pre-Diabetic,9,8,0.8888888888888888,1.0
+Patient C,Diabetic,9,9,1.0,1.0
